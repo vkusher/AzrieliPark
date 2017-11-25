@@ -1,0 +1,15 @@
+<div class="login-container">
+    <div class="login-field"><div class="logon-fieldtitle">שם חנות</div>
+        <select [(ngModel)] = "selectedSupplier" >
+                <option *ngFor="let spl of suppliers" [ngValue]="spl">{{spl.name}}</option>
+        </select></div>
+    <div class="login-field"><div class="logon-fieldtitle">סיסמה</div>
+    <input placeholder="סיסמה" type="password" [(ngModel)] = "password" /></div>    
+    <div class="login-field login-error" [hidden]="isValidLogin">
+            <label  >פרטי התחברות שגויים</label>
+    </div>
+    <div class="login-action">
+        
+        <input (click)="clicked($event)" type="button" value="כניסה" class="login-submit"/>    
+    </div>
+</div>

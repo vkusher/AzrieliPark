@@ -1,0 +1,37 @@
+<div class="finish-container">
+    <input type="button" disabled="disabled" class="finish-submit" value="בקשתך התקבלה"/>
+
+    <div class="finish-results">
+        <table border="0">
+            <tr>
+                <td class="finish-ttitle">שם חברה</td>
+                <td class="finish-tdata">{{provider}}</td>
+                <td class="finish-tspace"></td>
+                <td class="finish-ttitle">מספר רישוי</td>
+                <td class="finish-tdata">{{carlicense}}</td>
+            </tr>
+            <tr>
+                <td class="finish-ttitle">יום הגעה</td>
+                <td class="finish-tdata">{{date | date: 'dd/MM/yyyy'}}</td>
+                <td class="finish-tspace"></td>
+                <td class="finish-ttitle">שם נהג</td>
+                <td class="finish-tdata">{{drivername}}</td>
+            </tr>
+            <tr>
+                <td class="finish-ttitle">שעת הגעה</td>
+                <td class="finish-tdata">{{time}}</td>
+                <td class="finish-tspace"></td>
+                <td class="finish-ttitle">טלפון נהג</td>
+                <td class="finish-tdata">{{phone}}</td>
+            </tr>
+            <tr>
+                <td class="finish-ttitlenb">מספר חניה</td>
+                <td class="finish-tdatanb">{{park}}</td>
+                <td class="finish-tspace"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</div>

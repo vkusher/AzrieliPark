@@ -1,0 +1,52 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.schedule-container{
+    position: absolute;
+    top:40%;
+    left: 40%;
+}
+.schedule-action{
+    text-align: center;
+    width: 100%;
+}
+
+.schedule-field{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.schedule-field > input{
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.schedule-field > select{
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.schedule-submit{
+    background-color:rgba(253, 191, 15, 0.85);
+    height: 40px;
+    width: 100px;
+    border-radius: 18px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.schedule-error{
+    color: red;
+}
+
+.schedule-fieldtitle{
+    display: inline-block;
+    width: 100px;
+}

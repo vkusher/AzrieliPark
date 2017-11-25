@@ -1,0 +1,20 @@
+<div class="schedule-container">
+        <div class="schedule-field"><div class="schedule-fieldtitle">תאריך הגעה</div>
+                <input matInput [matDatepicker]="picker" placeholder="בחר תאריך" [(ngModel)] = "selectedDate"/>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+        </div>
+        <div class="schedule-field"><div class="schedule-fieldtitle">שעת הגעה</div>
+            <select [(ngModel)] = "selectedTime" >
+                <option *ngFor="let tms of times" [ngValue]="tms">{{tms.name}}</option>
+             </select>
+
+        </div>    
+            <div class="schedule-field schedule-error" [hidden]="isValidData">
+                    <label>פרטים אינם נכונים</label>
+            </div>
+            <div class="schedule-action">
+                
+                <input (click)="clicked($event)" type="button" value="המשך" class="schedule-submit"/>    
+            </div>
+</div>

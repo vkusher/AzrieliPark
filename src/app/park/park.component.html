@@ -1,0 +1,26 @@
+<div class=park-container>
+    <div class="park-info">לחץ על המפה לבחירת מקום חניה רתוי</div>
+    <div class="park-image">
+            <img-map
+            #imgMap
+            src="../assets/mpa.png"
+            markerRadius="10"
+            [markers]="markers"            
+            (change)="onChange($event)"
+          ></img-map>
+    </div>
+    <div class="park-data">
+        <input placeholder="מספר רישוי" [(ngModel)] = "carlicense" />
+        <input placeholder="שם נהג" [(ngModel)] = "drivername" />
+    </div>
+    <div class="park-data">
+            <input placeholder="טלפון נהג" [(ngModel)] = "phone" />
+            <input (click)="clicked($event)" type="button" value="הזמן" class="park-submit"/>    
+    </div>
+    <div class="park-field park-error" [hidden]="isValidData">
+        <label>פרטים אינם נכונים</label>
+    </div>
+    <div class="park-action">        
+            
+    </div>
+</div>
