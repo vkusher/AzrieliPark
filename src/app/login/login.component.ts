@@ -3,7 +3,7 @@ import { element } from 'protractor';
 import {ActivatedRoute} from '@angular/router';
 import {Routes, Router} from '@angular/router';
 import {routes} from '../app.component';
-import {Parking, MyPark} from '../parking'
+import {Parking, MyPark} from '../Parking'
 
 @Component({
   selector: 'app-login',
