@@ -8,6 +8,8 @@ export class Parking{
     carlicense: string;
     drivername: string;
     phone: string;
+
+    
 };
 
 export const MyPark: Parking = new Parking();
