@@ -26,7 +26,7 @@
 }
 
 .iconcontainer{    
-    width: 600px;
+    width: 100%;
     margin:30px auto;
     text-align: center;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";       /* IE 8 */

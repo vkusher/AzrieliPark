@@ -1,15 +1,15 @@
 .finish-container{
-    width: 500px;
-    margin:30px auto;
-    text-align: center;
-    margin-top: 50px;
+    margin: 10px auto;
+    width: 70%;
+    max-width: 450px;
+    text-align: center;    
 }
 
 .finish-submit{
     background-color:rgba(253, 191, 15, 0.85);
     color: #FFF;
     height: 60px!important;
-    width: 300px;
+    width: 90%;
     border-radius: 18px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
