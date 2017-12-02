@@ -1,7 +1,8 @@
 .park-container{
 
-    width: 500px;
-    margin:30px auto;
+    margin: 10px auto;
+    width: 70%;
+    max-width: 450px;
 }
 
 .park-image > img{
@@ -9,12 +10,13 @@
 }
 
 .park-info{
-    margin-top:40px;
-    font-size: 16px;
+    margin-top: 50px;
+    font-size: 18px;
     font-family: Arial,Verdana,'sans serif';
     margin-bottom: 10px;
     color:white;
-    background-color: black;
+    background-color: rgba(0,0,0,0.30);
+    text-align: center;
 }
 
 .park-data{
@@ -35,7 +37,7 @@
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     cursor: pointer;    
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .park-error{
@@ -47,24 +49,24 @@
     padding: 5px;
     margin-bottom: 15px;
     height: 40px;
-    line-height: 30px;
+    
 }
 
 .park-field > input{
-    width: 150px;
+    width: 30%;
     height: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .park-field > select{
-    width: 150px;
+    width: 30%;
     height: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .park-data input{
-    width: 150px;
+    width: 48%;
     height: 25px;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
 }

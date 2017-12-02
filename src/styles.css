@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    height: 100%;
+}
 body{
     background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+    background-attachment: fixed;   
+    width: 100%;
+    
     padding:0px;
     margin:0px;
     direction: rtl;
@@ -11,5 +20,20 @@ body{
 .cdk-overlay-pane{
     position: absolute;
     background-color:white;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
+.mat-calendar{
+    max-width: 250px;
+    
+}
+
+.mat-datepicker-content{
+    max-width: 250px;
+}
+
+.mat-icon-button{
+    width: 10%!important;
+}

@@ -1,9 +1,10 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 .schedule-container{
-    position: absolute;
-    top:40%;
-    left: 40%;
+    margin:15% auto;
+    width: 30%;
+    color: #000;
+    /*max-width: 400px;*/
 }
 .schedule-action{
     text-align: center;
@@ -16,16 +17,23 @@
     margin-bottom: 15px;
     height: 40px;
     line-height: 40px;
+    min-width: 265px;
 }
 
 .schedule-field > input{
-    width: 150px;
+    width: 60%;
+    height: 25px;
+    font-size: 18px;
+}
+
+.schedule-field-date > input{
+    width: 50%;
     height: 25px;
     font-size: 18px;
 }
 
 .schedule-field > select{
-    width: 150px;
+    width: 60%;
     height: 25px;
     font-size: 18px;
 }
@@ -48,5 +56,9 @@
 
 .schedule-fieldtitle{
     display: inline-block;
-    width: 100px;
+    width: 30%;
+}
+
+.mat-icon-button{
+    width: 10%!important;
 }
