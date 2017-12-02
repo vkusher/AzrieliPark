@@ -1,0 +1,3 @@
+ng build
+git commit -am "comment"
+git push
