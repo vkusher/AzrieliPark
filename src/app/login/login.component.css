@@ -2,7 +2,7 @@
     color: #000;
     margin:15% auto;
     width: 25%;
-
+    min-width: 250px;
 }
 
 .login-action{
