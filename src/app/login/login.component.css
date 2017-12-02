@@ -1,8 +1,11 @@
 .login-container{
-    position: absolute;
+    /*position: absolute;
     top:40%;
-    left: 40%;
-    color: #808080;
+    left: 40%;*/
+    color: #000;
+    margin:100px auto;
+    width: 25%;
+
 }
 
 .login-action{
@@ -11,23 +14,24 @@
 }
 
 .login-field{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 5px;
     margin-bottom: 15px;
-    height: 40px;
-    line-height: 40px;
+    min-height: 40px;
+    line-height: 40px; 
+    min-width: 200px;   
 }
 
 .login-field > input{
     width: 150px;
     height: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .login-field > select{
     width: 150px;
     height: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .login-submit{
@@ -39,7 +43,7 @@
     -webkit-border-radius: 5px;
     cursor: pointer;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .login-error{
