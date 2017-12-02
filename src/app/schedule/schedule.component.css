@@ -2,9 +2,9 @@
 
 .schedule-container{
     margin:15% auto;
-    width: 35%;
+    width: 40%;
     color: #000;
-    min-width: 270px;
+    min-width: 300px;
     /*max-width: 400px;*/
 }
 .schedule-action{
